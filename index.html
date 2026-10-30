@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://sorendevelopments.github.io">
-    <link rel="icon" href="https://sorendevelopments.github.io/favicon.ico" sizes="any">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://sorendevelopments.github.io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://sorendevelopments.github.io/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://sorendevelopments.github.io/apple-touch-icon.png">
-    <link rel="manifest" href="https://sorendevelopments.github.io/site.webmanifest">
-    <title>Redirecting</title>
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="2; url=https://sorendevelopments.github.io">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="https://sorendevelopments.github.io/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="https://sorendevelopments.github.io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://sorendevelopments.github.io/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://sorendevelopments.github.io/apple-touch-icon.png">
+<link rel="manifest" href="https://sorendevelopments.github.io/site.webmanifest">
+<title>Redirecting · SorenDevelopment</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%}
+  body{display:flex;flex-direction:column;align-items:center;justify-content:center;background:#dceeff;color:#0a192f;font-family:system-ui,-apple-system,sans-serif;text-align:center;padding:24px}
+  .loader{width:50px;height:50px;border:4px solid rgba(94,176,255,.3);border-top-color:#5eb0ff;border-radius:50%;animation:spin 1s linear infinite;margin-bottom:24px}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  h1{font-size:1.5rem;font-weight:700;margin-bottom:12px;letter-spacing:-.02em}
+  p{color:#33506e;font-size:.95rem}
+  a{color:#3d9eff;text-decoration:none;font-weight:600}
+  a:hover{text-decoration:underline}
+</style>
 </head>
 <body>
-    <p></p>
-    <script>
-        window.location.replace("https://sorendevelopments.github.io");
-    </script>
+  <div class="loader"></div>
+  <h1>Redirecting you...</h1>
+  <p>Taking you to <a href="https://sorendevelopments.github.io">sorendevelopments.github.io</a></p>
+  <script>
+    setTimeout(function() {
+      window.location.replace("https://sorendevelopments.github.io");
+    }, 1000);
+  </script>
 </body>
 </html>
