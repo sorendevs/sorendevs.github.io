@@ -1,1 +1,1 @@
-# sorendevs.github.io
+# All rights reserved
